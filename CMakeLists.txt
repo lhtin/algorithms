@@ -3,5 +3,4 @@ project(C__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C__ main.cpp)
-add_executable(SortingAlgorithm SortingAlgorithm.cpp)
+add_executable(SortingAlgorithms SortingAlgorithms.cpp)

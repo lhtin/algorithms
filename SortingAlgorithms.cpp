@@ -1,5 +1,5 @@
 /**
- * Sorting Algorithm
+ * Sorting Algorithms
  * by 01nomagic at 20200111
  */
 #include <iostream>
@@ -28,8 +28,6 @@ void run (Sort sort) {
   printArr(arr, 8);
   cout << endl;
 }
-
-/** Simple Sorts **/
 
 // https://en.wikipedia.org/wiki/Insertion_sort
 // 插入排序，稳定排序，时间复杂度：最坏n*(n-1)，最好n，不过交换的次数过多
