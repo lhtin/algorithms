@@ -8,6 +8,7 @@
 #include <vector>
 #inlcude <algorithm>
 #include <string>
+#include <iterator>
 using namespace std;
 
 #endif //C___LEETCODE_H
