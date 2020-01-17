@@ -6,7 +6,7 @@
 #define C___LEETCODE_H
 
 #include <vector>
-#inlcude <algorithm>
+#include <algorithm>
 #include <string>
 #include <iterator>
 using namespace std;
