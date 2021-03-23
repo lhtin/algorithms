@@ -1,3 +1,5 @@
+#include "./leetcode.hpp"
+
 class Solution {
 public:
     int rob(TreeNode* root) {

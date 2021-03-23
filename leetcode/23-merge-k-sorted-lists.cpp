@@ -1,3 +1,5 @@
+#include "./leetcode.hpp"
+
 struct ListNode {
   int val;
   ListNode *next;

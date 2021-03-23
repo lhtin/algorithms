@@ -1,3 +1,5 @@
+#include "./leetcode.hpp"
+
 class Codec {
 private:
     int at;

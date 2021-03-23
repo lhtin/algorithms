@@ -1,3 +1,10 @@
+class Node {
+public:
+    Node* next;
+    Node* left;
+    Node* right;
+};
+
 class Solution {
 public:
     Node *connect(Node *root) {

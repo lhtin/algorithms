@@ -1,3 +1,5 @@
+#include "./leetcode.hpp"
+
 class Solution {
 public:
     TreeNode *flatten(TreeNode *left, TreeNode *right) {
