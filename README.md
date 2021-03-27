@@ -7,4 +7,5 @@
   - 堆排序
   - 快速排序
   - 希尔排序
-- LeetCode上的题目（陆陆续续）
+- LeetCode上的题目（陆陆续续）：[./leetcode/](./leetcode/)
+- 华为笔试题：[./huawei/](./huawei/)
