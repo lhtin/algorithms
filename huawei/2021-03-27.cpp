@@ -18,7 +18,7 @@ int main() {
     w.push_back(weight);
   }
   
-  // dp[i][j] 表示在前j个物品中选择不超过i的最大价值
+  // dp[i][j] 表示从前j个物品中选择总价格不超过i的最大价值
   // 2. 初始化
   // base case：
   //   dp[0][...] = 0
@@ -33,10 +33,9 @@ int main() {
       int price = v[j - 1];
       int weight = w[j - 1];
       if (i >= price) {
-        // 选择第j个物品
         dp[i][j] = max(dp[i][j], dp[i - price][j - 1] + price * weight);
       } else {
-        // 不选第j个物品
+        // 价格超过i，不能选择第j个物品
         dp[i][j] = dp[i][j - 1];
       }
     }
